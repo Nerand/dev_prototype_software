@@ -62,7 +62,7 @@ async def create_appeal(appeal: Appeal):
 
         return {"status": "ok", "id": file_id, "file": path, "data": payload}
 
-if __name__ == "__homework_2__":
+if __name__ == "__main__":
     uvicorn.run(
         "main:app", 
         host="0.0.0.0", 
